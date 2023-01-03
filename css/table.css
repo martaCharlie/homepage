@@ -1,0 +1,31 @@
+
+.table__caption {
+    font-size: larger;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: rgb(27, 146, 69)
+}
+
+.table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.table__row:hover {
+    background-color: #ddd;
+}
+
+
+.table__cell {
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+}
+
+
+.table__cell--header {
+    background-color: rgb(18, 48, 37);
+    color: rgb(244, 241, 193);
+    font-weight: normal;
+}
+

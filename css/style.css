@@ -1,0 +1,55 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+
+.header {
+    color: rgb(249, 245, 159);
+    background-color: rgb(24, 89, 38);
+    padding: auto;
+    text-align: center;
+}
+
+
+.interestingElement {
+    color: rgb(27, 146, 69);
+    font-weight: bold;
+}
+
+
+
+.dark {
+    background-color: rgb(228, 234, 231);
+}
+
+
+
+.dayWeek {
+    text-align: center;
+}
+
+.linki {
+    padding: 25px;
+}
+
+
+.piosenki {
+    padding: 25px;
+}
+
+.header {
+    color: rgb(249, 245, 159);
+    background-color: rgb(24, 89, 38);
+    padding: auto;
+    text-align: center;
+}
+
+
+.button {
+    text-align: center;
+    color: rgb(83, 86, 84);  
+}

@@ -1,0 +1,16 @@
+.navigation {
+    text-align: center;
+}
+
+.navigation__link {
+    padding: 20px;
+    text-decoration: none;
+    color: rgb(128, 193, 32);
+}
+
+
+.navigation__link:hover {
+
+    color: rgb(180, 231, 102);
+
+}
