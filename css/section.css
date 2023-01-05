@@ -14,10 +14,11 @@
     text-align: center;
 }
 
+
 .section__subHeader {
     color: rgb(244, 241, 193);
     background-color: rgb(18, 48, 37);
-    margin-left: 5px;
+    margin-left: 0px;
     max-width: 100%;
 }
 
