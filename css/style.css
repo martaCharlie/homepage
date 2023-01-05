@@ -21,16 +21,15 @@ html {
 }
 
 
-
 .dark {
     background-color: rgb(228, 234, 231);
 }
 
 
-
 .dayWeek {
     text-align: center;
 }
+
 
 .linki {
     padding: 25px;
@@ -40,6 +39,7 @@ html {
 .piosenki {
     padding: 25px;
 }
+
 
 .header {
     color: rgb(249, 245, 159);
