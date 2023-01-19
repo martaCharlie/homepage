@@ -1,47 +1,46 @@
-const welcome = () => {
-console.log("Cześć!");
-}
-
-const toggleBackground = () => {
-    const body = document.querySelector(".body");
-    const themeName = document.querySelector(".themeName");
-
-    body.classList.toggle("dark");
-    if (body.classList.contains("dark")) {
-        themeName.innerText = "jasny"
-    } else {
-        themeName.innerText = "ciemny"
+{
+    const welcome = () => {
+        console.log("Cześć!");
     }
-};
+    welcome();
 
-const dayEqualHowMuchTime = () => {
-let day = document.querySelector(".day").innerText;
-let howMuch = document.querySelector(".howMuch");
-};
+    const toggleBackground = () => {
+        const body = document.querySelector(".body");
+        const themeName = document.querySelector(".themeName");
+        body.classList.toggle("dark");
+        if (body.classList.contains("dark")) {
+            themeName.innerText = "jasny"
+        } else {
+            themeName.innerText = "ciemny"
+        }
+
+        const init = () => {
+            const changeBackground = document.querySelector(".js-changeBackground");
+
+        }
+        init();
 
 
+        changeBackground.addEventListener("click", toggleBackground);
 
-switch (day) {
-    case "poniedziałek":
-    case "wtorek":
-        howMuch.innerText = "dużo";
-        break;
+    }}
 
-    case "środa":
-    case "czwartek":
-        howMuch.getBoundingClientRect = "trochę";
-        break;
 
-    default:
-        howMuch.innerText = "mało ";
+    const day = document.querySelector(".day").innerText;
+    const howMuch = document.querySelector(".howMuch");
 
-}
 
-const init = () => {
-const changeBackground = document.querySelector(".js-changeBackground");
-changeBackground.addEventListener("click", toggleBackground);
+    switch (day) {
+        case "poniedziałek":
+        case "wtorek":
+            howMuch.innerText = "dużo";
+            break;
 
-welcome();
-};
+        case "środa":
+        case "czwartek":
+            howMuch.getBoundingClientRect = "trochę";
+            break;
 
-init();
+        default:
+            howMuch.innerText = "mało ";
+    }
