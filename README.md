@@ -1,5 +1,5 @@
 # Marta Wójcik - moja strona
-![Marta] (https://github.com/martaCharlie/homepage/blob/main/images/printScreen.png?raw=true)
+![Marta](https://github.com/martaCharlie/homepage/blob/main/images/printScreen.png?raw=true)
 ## Demo
 https://martacharlie.github.io/homepage/
 
