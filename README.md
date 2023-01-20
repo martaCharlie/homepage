@@ -11,6 +11,6 @@ On this page you will learn some information about the author of this site. Amon
 Navigation will help you get to the information you are interested in.
 
 ##### Technologies:
-HTML
-CSS
-JavaScript (ES6+)
+- HTML
+- CSS
+- JavaScript (ES6+)
