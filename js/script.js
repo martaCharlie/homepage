@@ -13,18 +13,14 @@
         } else {
             themeName.innerText = "ciemny"
         }
+    }
 
-        const init = () => {
-            const changeBackground = document.querySelector(".js-changeBackground");
-
-        }
-        init();
-
-
+    const init = () => {
+        const changeBackground = document.querySelector(".js-changeBackground");
         changeBackground.addEventListener("click", toggleBackground);
+    }
 
-    }}
-
+    init();
 
     const day = document.querySelector(".day").innerText;
     const howMuch = document.querySelector(".howMuch");
