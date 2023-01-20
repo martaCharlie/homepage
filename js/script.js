@@ -22,7 +22,6 @@
 
     init();
 
-    const howMuchTime = () => {
     const day = document.querySelector(".day").innerText;
     const howMuch = document.querySelector(".howMuch");
 
@@ -41,4 +40,4 @@
         default:
             howMuch.innerText = "mało ";
     }
-}}
+}
