@@ -21,23 +21,18 @@
     }
 
     init();
+}
 
-    const day = document.querySelector(".day").innerText;
-    const howMuch = document.querySelector(".howMuch");
-
-
-    switch (day) {
-        case "poniedziałek":
-        case "wtorek":
-            howMuch.innerText = "dużo";
-            break;
-
-        case "środa":
-        case "czwartek":
-            howMuch.getBoundingClientRect = "trochę";
-            break;
-
-        default:
-            howMuch.innerText = "mało ";
+const init = () => {
+    const day = document.querySelector(".day").innerText; 
+    const howMuch = document.querySelector(".howMuch"); 
+         if (day === "poniedziałek" || day === "wtorek") {
+        howMuch.innerText = "dużo "
+    } else if (day === "środa" || day === "czwartek") {
+        howMuch.innerText = "trochę "
+    } else {
+        howMuch.innerText = "mało "
     }
 }
+
+init();
