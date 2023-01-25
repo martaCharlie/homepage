@@ -4,6 +4,20 @@
     }
     welcome();
 
+    const howMuchTime = () => {
+        const day = document.querySelector(".day").innerText;
+        const howMuch = document.querySelector(".howMuch");
+        if (day === "poniedziałek" || day === "wtorek") {
+            howMuch.innerText = "dużo "
+        } else if (day === "środa" || day === "czwartek") {
+            howMuch.innerText = "trochę "
+        } else {
+            howMuch.innerText = "mało "
+        }
+    }
+    
+    howMuchTime();
+
     const toggleBackground = () => {
         const body = document.querySelector(".body");
         const themeName = document.querySelector(".themeName");
@@ -23,16 +37,3 @@
     init();
 }
 
-const init = () => {
-    const day = document.querySelector(".day").innerText;
-    const howMuch = document.querySelector(".howMuch");
-    if (day === "poniedziałek" || day === "wtorek") {
-        howMuch.innerText = "dużo "
-    } else if (day === "środa" || day === "czwartek") {
-        howMuch.innerText = "trochę "
-    } else {
-        howMuch.innerText = "mało "
-    }
-}
-
-init();
