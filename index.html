@@ -1,118 +1,147 @@
 <!DOCTYPE html>
 <html lang="pl">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Moja pierwsza strona</title>
-    <link rel="icon" href="images/icon1.png">
-    <meta property="og:image" content="images/share/png">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
-        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
-        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link href="css/style.css" rel="stylesheet">
-    <link href="css/section.css" rel="stylesheet">
-    <link href="css/table.css" rel="stylesheet">
-    <link href="css/navigation.css" rel="stylesheet">
-    <link href="css/container.css" rel="stylesheet">
-    <link href="css/article.css" rel="stylesheet">
-    <link href="css/footer.css" rel="stylesheet">
-    <link href="css/tableContainer.css" rel="stylesheet">
-    <script defer src="js/script.js"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="icon" href="images/icon1.png" />
+    <meta property="og:image" content="images/share.png" />
     <link
-        href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;0,700;1,400&family=Xanh+Mono:ital@0;1&display=swap"
-        rel="stylesheet">
-</head>
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="css/section.css" rel="stylesheet" />
+    <link href="css/table.css" rel="stylesheet" />
+    <link href="css/navigation.css" rel="stylesheet" />
+    <link href="css/container.css" rel="stylesheet" />
+    <link href="css/article.css" rel="stylesheet" />
+    <link href="css/footer.css" rel="stylesheet" />
+    <link href="css/tableContainer.css" rel="stylesheet" />
+    <script defer src="js/script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;0,700;1,400&family=Xanh+Mono:ital@0;1&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-
-<body class="body">
+  <body class="body">
     <header class="header">
-        <h1>Marta Wójcik</h1>
+      <h1>Marta Wójcik</h1>
     </header>
     <nav class="navigation">
-        <a class="navigation__link" href="#home">Home</a>
-        <a class="navigation__link" href="#gdzie-mieszkam">Gdzie mieszkam</a>
-        <a class="navigation__link" href="#kariera">Kariera</a>
-        <a class="navigation__link" href="#piosenki">Moje ulubione piosenki</a>
-        <a class="navigation__link" href="#linki">Linki</a>
+      <a class="navigation__link" href="#home">Home</a>
+      <a class="navigation__link" href="#gdzie-mieszkam">Gdzie mieszkam</a>
+      <a class="navigation__link" href="#kariera">Kariera</a>
+      <a class="navigation__link" href="#piosenki">Moje ulubione piosenki</a>
+      <a class="navigation__link" href="#linki">Linki</a>
     </nav>
 
     <p class="button">
-        <button class="js-changeBackground"><span class="themeName">Ciemny</span> motyw</button>
+      <button class="js-changeBackground">
+        <span class="themeName">Ciemny</span> motyw
+      </button>
     </p>
     <main>
-        <section id="linki" class="section">
-            <p class="section__paragraph--centered">Bardzo lubię mojego psa Berneńczyka. Ma już 7 lat. Mówię na
-                niego miś. <br>
-                https://zwierzaki.pl/bernenski-pies-pasterski</p>
-        </section>
-        <section class="section">
-            <h2 class="section__subHeader">Gdzie mieszkam</h2>
-            <img class="section__image" src='https://i.postimg.cc/y8nTmDmC/wie.jpg' alt='wie'>
-            <p class="section__paragraph">Tekst jest <span class="interestingElement">"dziwny"</span>, to nie jest moja
-                wizytówka tylko piszę co mi do głowy przyszło. Mieszkam na wsi.
-                Chciałabym tu w przyszłości, oczywiście nie dalekiej zbudować tu<span class="interestingElement">
-                    swój dom.</span> Wieś to miejsce gdzie na pewno chcę spędzić resztę swojego życia. Teraz przemija
-                okres grzybowy, ten sezon zdecyowanie
-                był udany.</p>
-        </section>
+      <section id="linki" class="section">
+        <p class="section__paragraph--centered">
+          Bardzo lubię mojego psa Berneńczyka. Ma już 7 lat. Mówię na niego miś.
+          <br />
+          https://zwierzaki.pl/bernenski-pies-pasterski
+        </p>
+      </section>
+      <section class="section">
+        <h2 class="section__subHeader">Gdzie mieszkam</h2>
+        <img
+          class="section__image"
+          src="https://i.postimg.cc/y8nTmDmC/wie.jpg"
+          alt="wie"
+        />
+        <p class="section__paragraph">
+          Tekst jest <span class="interestingElement">"dziwny"</span>, to nie
+          jest moja wizytówka tylko piszę co mi do głowy przyszło. Mieszkam na
+          wsi. Chciałabym tu w przyszłości, oczywiście nie dalekiej zbudować
+          tu<span class="interestingElement"> swój dom.</span> Wieś to miejsce
+          gdzie na pewno chcę spędzić resztę swojego życia. Teraz przemija okres
+          grzybowy, ten sezon zdecyowanie był udany.
+        </p>
+      </section>
 
-        <section id="kariera" class="section">
-            <h3 class="section__subHeader">Kariera bez kariery</h3>
-            <p class="section__paragraph">Pracowałam w wielu zawodach m.in jako klenerka, barmanka, opiekun osób
-                starszych,
-                wyjeżdżałam na
-                zbiory do
-                Niemiec i Norwegii. Pracowałąm jako dróżnik przejazdowy. Z wykształcenia jestem nauczycielem
-                języka
-                angielskiego
-                i dwa razy pracowałam na zastępstwie. Na pół etatu jako nauczyciel bez stażu zarabiałam 1,5
-                tysiąca,
-                miałam
-                wolne piątki, a tak dość dużo czasu spędzałam w szkole. Zdecydowanie dla tego zawodu
-                <strong>NIE!</strong>
-            </p>
-        </section>
+      <section id="kariera" class="section">
+        <h3 class="section__subHeader">Kariera bez kariery</h3>
+        <p class="section__paragraph">
+          Pracowałam w wielu zawodach m.in jako klenerka, barmanka, opiekun osób
+          starszych, wyjeżdżałam na zbiory do Niemiec i Norwegii. Pracowałąm
+          jako dróżnik przejazdowy. Z wykształcenia jestem nauczycielem języka
+          angielskiego i dwa razy pracowałam na zastępstwie. Na pół etatu jako
+          nauczyciel bez stażu zarabiałam 1,5 tysiąca, miałam wolne piątki, a
+          tak dość dużo czasu spędzałam w szkole. Zdecydowanie dla tego zawodu
+          <strong>NIE!</strong>
+        </p>
+      </section>
 
-        <section id="piosenki">
-            <div class="tableContainer">
-                <table class="table">
-                    <caption class="table__caption">Moje ulubione piosenki</caption>
-                    <tr class="table__row">
-                        <th class="table__cell table__cell--header" scope="col">Wykonawca</th>
-                        <th class="table__cell table__cell--header" scope="col">Tytuł</th>
-                        <th class="table__cell table__cell--header" scope="col">Tytuł 2</th>
-                    </tr>
-                    <tr class="table__row">
-                        <th class="table__cell table__cell--header" scope="row">Rammstein</th>
-                        <td class="table__cell">Du hast</td>
-                        <td class="table__cell">Zick Zack</td>
-                    </tr>
-                    <tr class="table__row">
-                        <th class="table__cell table__cell--header" scope="row">Michael Jackson</th>
-                        <td class="table__cell">Dirty Diana</td>
-                        <td class="table__cell">Give it to me</td>
-                    </tr>
-                    <tr class="table__row">
-                        <th class="table__cell table__cell--header" scope="row">Scooter</th>
-                        <td class="table__cell">Mary got no lamb</td>
-                        <td class="table__cell">999</td>
-                    </tr>
-                </table>
-            </div>
-        </section>
+      <section id="piosenki">
+        <div class="tableContainer">
+          <table class="table">
+            <caption class="table__caption">
+              Moje ulubione piosenki
+            </caption>
+            <tr class="table__row">
+              <th class="table__cell table__cell--header" scope="col">
+                Wykonawca
+              </th>
+              <th class="table__cell table__cell--header" scope="col">Tytuł</th>
+              <th class="table__cell table__cell--header" scope="col">
+                Tytuł 2
+              </th>
+            </tr>
+            <tr class="table__row">
+              <th class="table__cell table__cell--header" scope="row">
+                Rammstein
+              </th>
+              <td class="table__cell">Du hast</td>
+              <td class="table__cell">Zick Zack</td>
+            </tr>
+            <tr class="table__row">
+              <th class="table__cell table__cell--header" scope="row">
+                Michael Jackson
+              </th>
+              <td class="table__cell">Dirty Diana</td>
+              <td class="table__cell">Give it to me</td>
+            </tr>
+            <tr class="table__row">
+              <th class="table__cell table__cell--header" scope="row">
+                Scooter
+              </th>
+              <td class="table__cell">Mary got no lamb</td>
+              <td class="table__cell">999</td>
+            </tr>
+          </table>
+        </div>
+      </section>
     </main>
 
-    <p class="dayWeek">Dzień tygodnia: <strong class="day">niedziela</strong></p>
-    <p class="dayWeek">Mam jeszcze <strong class="howMuch"></strong>czasu na realizacje tygodniowego planu.</p>
+    <p class="dayWeek">
+      Dzień tygodnia: <strong class="day">niedziela</strong>
+    </p>
+    <p class="dayWeek">
+      Mam jeszcze <strong class="howMuch"></strong>czasu na realizacje
+      tygodniowego planu.
+    </p>
 
     <footer class="footer">Copyrights all reserved by MW</footer>
-</body>
-
+  </body>
 </html>
